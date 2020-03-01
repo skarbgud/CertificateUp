@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Certificate Up!"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="150dp"
+        />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="분류"
+            android:textSize="20dp"
+            />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="50dp"
+        android:text="국가기술자격"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/btn_bun"
+        android:layout_marginBottom="16dp"
+            />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="50dp"
+        android:text="국가전문자격"
+        android:background="@drawable/btn_bun"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="50dp"
+        android:text="민간자격"
+        android:background="@drawable/btn_bun"
+        />
+
+
+</LinearLayout>
